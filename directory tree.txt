@@ -1,0 +1,122 @@
++---src
+|   |   bootstrap.js
+|   |   history.js
+|   |   vendor.js
+|   |   
+|   +---actions
+|   |       headernavbar.js
+|   |       index.js
+|   |       shop.js
+|   |       types.js
+|   |       user.js
+|   |       
+|   +---components
+|   |   |   details.js
+|   |   |   formFields.js
+|   |   |   greenPriceTag.js
+|   |   |   layout.js
+|   |   |   pageTitle.js
+|   |   |   quantity.js
+|   |   |   
+|   |   +---account
+|   |   |       account.js
+|   |   |       accountInformation.js
+|   |   |       accountInformationForm.js
+|   |   |       purchaseDetail.js
+|   |   |       purchaseHistory.js
+|   |   |       purchases.js
+|   |   |       
+|   |   +---auth
+|   |   |       signin.js
+|   |   |       signinForm.js
+|   |   |       signup.js
+|   |   |       signupForm.js
+|   |   |       
+|   |   +---headernavbar
+|   |   |       header.js
+|   |   |       navbar.js
+|   |   |       
+|   |   +---information
+|   |   |       infoHelp.js
+|   |   |       orderSummary.js
+|   |   |       payment.js
+|   |   |       paymentForm.js
+|   |   |       shipping.js
+|   |   |       shippingForm.js
+|   |   |       
+|   |   +---order
+|   |   |       review.js
+|   |   |       reviewForm.js
+|   |   |       reviewProduct.js
+|   |   |       reviewProducts.js
+|   |   |       
+|   |   \---shop
+|   |           cartButton.js
+|   |           cartProduct.js
+|   |           shop.js
+|   |           shopCart.js
+|   |           shopProduct.js
+|   |           shopSearchBar.js
+|   |           
+|   +---reducers
+|   |       headernavbarReducer.js
+|   |       index.js
+|   |       shopReducer.js
+|   |       userReducer.js
+|   |       
+|   \---style
+|       |   details.scss
+|       |   form-fields.scss
+|       |   green-price-tag.scss
+|       |   headernavbar.scss
+|       |   layout.scss
+|       |   main.scss
+|       |   page-title.scss
+|       |   quantity.scss
+|       |   
+|       +---account
+|       |       account-information.scss
+|       |       account.scss
+|       |       purchase-history.scss
+|       |       
+|       +---auth
+|       |       signin.scss
+|       |       signup.scss
+|       |       
+|       +---information
+|       |       InfoHelp.scss
+|       |       payment.scss
+|       |       shipping.scss
+|       |       
+|       +---order
+|       |       review.scss
+|       |       reviewForm.scss
+|       |       reviewProduct.scss
+|       |       
+|       \---shop
+|               cart-product.scss
+|               shop-cart.scss
+|               shop-product.scss
+|               shop-search-bar.scss
+|               shop.scss
+|               
++---static
+|   |   favicon.ico
+|   |   index.html
+|   |   
+|   \---assets
+|           README.md
+|           
+|   .babelrc
+|   .gitignore
+|   ecomm.txt
+|   env.js
+|   LICENSE
+|   listing.txt
+|   listing1.txt
+|   package-lock.json
+|   package.json
+|   Procfile
+|   README.md
+|   server.js
+|   

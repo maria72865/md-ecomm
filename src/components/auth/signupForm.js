@@ -75,4 +75,4 @@ SignUpForm = reduxForm({
     form: 'SignUpForm'
 })(SignUpForm);
 
-export default SignUpForm;
+export default SignUpForm; 
